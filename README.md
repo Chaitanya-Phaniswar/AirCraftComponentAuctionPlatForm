@@ -6,7 +6,9 @@ Extract them in a Folder(FolderName)
 #npm i
 # To Start Server
 cd api
+
 nodemon app.js
 # To Start Client(react Application)
 cd client
+
 npm start
