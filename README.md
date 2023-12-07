@@ -7,8 +7,12 @@ Extract them in a Folder(FolderName)
 # To Start Server
 cd api
 
+npm i
+
 nodemon app.js
 # To Start Client(react Application)
 cd client
+
+npm i
 
 npm start
