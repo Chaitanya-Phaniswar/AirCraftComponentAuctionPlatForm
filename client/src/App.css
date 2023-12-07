@@ -1,0 +1,151 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+.main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+            /* background: linear-gradient(45deg, red, blue); */
+}
+.main-two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  background: linear-gradient(30deg, rgb(220, 228, 223) 60%, rgb(238, 238, 243));
+}
+.lil{
+  margin: 0;
+  padding: 4%;
+}
+.lil p{
+  background-color: green;
+}
+.alert {
+  max-height: 53px;;  
+}
+.mycustom{
+  width: 80%;
+  height: 30%;
+}
+tr:nth-of-type(2n+1){
+  font-weight: bolder;
+  width: 60px;
+  padding-right: 10%;
+  display: inline;
+}
+.my-btn{
+  background: rgb(171, 185, 176);
+}
+.titl{
+  font-weight: 500;
+  display: inline;
+  margin-right: 3%;
+  min-width: 200px;
+}
+.useFull{
+  background: wheat;
+  padding: 10px;
+  border-radius: 12px;
+}
+.useFulls{
+  text-align: center;
+  background: rgb(79, 180, 207);
+  padding: 10px;
+  border-radius: 12px;
+}
+span{
+  color: rgb(232, 155, 11);
+}
+.flexrow{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  height: 31px;
+  width: 31px;
+  background: white;
+  border-radius: 50%;
+  padding: 1%;
+  margin-left: 9px;
+}
+.second{
+  width: 90px;
+  height: 90px;
+  margin-left: 50%;
+  border: 2px solid white;
+  padding: 5px;
+}
+.secondb{
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  margin-left: 250px;
+}
+.link{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.colorit{
+  background: rgb(236, 213, 101);
+  padding: 10px;
+  border-radius: 12px;
+}
+.status{
+  font-size: small;
+  margin: 0;
+}
+.register{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 100%;
+  border: 2px solid white;
+  font-size: larger;
+}
+.register:nth-of-type(1){
+  background: whitesmoke;
+  font-weight: bolder;
+}
+.register p{
+  margin: 0;
+  padding: 8px;
+  width: 0.20rem;
+  text-align: center;
+}
+.sub-main{
+  margin: 20px;
+  width: 80%;
+  background: wheat;
+  border-radius: 10px;
+  padding: 3px;
+  border: 2px solid black
+}
+.bg-work{
+  background: rgb(152, 216, 211);
+  font-weight: bold;
+}
+.textc{
+  color: black
+}
+.mybtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

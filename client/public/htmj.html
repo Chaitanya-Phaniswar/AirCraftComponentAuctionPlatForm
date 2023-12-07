@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+</head>
+<body>
+  <div>
+    <h1>Payment</h1>
+    <p>Don't refresh or close the page.</p>
+    <p id="timer">Timer: 12 seconds</p>
+  </div>
+
+  <script>
+    // Timer countdown
+    let timer = 12;
+    const timerElement = document.getElementById('timer');
+
+    const countdown = setInterval(() => {
+      timerElement.textContent = `Timer: ${timer} seconds`;
+      timer--;
+
+      if (timer < 0) {
+        clearInterval(countdown);
+
+        // Payment completed after 12 seconds
+        // You can perform any actions or API calls related to payment completion here
+
+        // Close the page after 2 seconds
+        setTimeout(() => {
+          window.close();
+        }, 2000);
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
